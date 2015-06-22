@@ -37,7 +37,7 @@
 
 - (void)searchForQuestionsWithTag:(NSString *)tag {
     [self fetchContentAtURL: [NSURL URLWithString:
-                              [NSString stringWithFormat: @"http://api.stackoverflow.com/1.1/search?tagged=%@&pagesize=20", tag]]
+                              [NSString stringWithFormat: @"http://api.stackoverflow.com/2.2/search?tagged=%@&pagesize=20", tag]]
                errorHandler: ^(NSError *error) {
                    [delegate searchingForQuestionsFailedWithError: error];
                }

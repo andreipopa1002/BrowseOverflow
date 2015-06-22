@@ -101,6 +101,7 @@
 		98EC97F6144CADFA001F074D /* BrowseOverflowAppDelegateTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 98EC97F5144CADFA001F074D /* BrowseOverflowAppDelegateTests.m */; };
 		98EC97F8144CB11B001F074D /* BrowseOverflowAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 98A548DF130D3ABD003C4F0F /* BrowseOverflowAppDelegate.m */; };
 		98F82F2813E1863800668CAC /* TopicTableDataSourceTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 98F82F2713E1863800668CAC /* TopicTableDataSourceTests.m */; };
+		C92452B31B3705CC00C61982 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C92452B21B3705CC00C61982 /* Images.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -242,6 +243,7 @@
 		98EC97F5144CADFA001F074D /* BrowseOverflowAppDelegateTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BrowseOverflowAppDelegateTests.m; sourceTree = "<group>"; };
 		98F82F2613E1863800668CAC /* TopicTableDataSourceTests.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TopicTableDataSourceTests.h; sourceTree = "<group>"; };
 		98F82F2713E1863800668CAC /* TopicTableDataSourceTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TopicTableDataSourceTests.m; sourceTree = "<group>"; };
+		C92452B21B3705CC00C61982 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -383,6 +385,7 @@
 				98BE817B1430E16C00CAC4E9 /* AnswerCell.xib */,
 				98E4ABB514609AFE00B5C95B /* BrowseOverflowObjectConfiguration.h */,
 				98E4ABB614609AFE00B5C95B /* BrowseOverflowObjectConfiguration.m */,
+				C92452B21B3705CC00C61982 /* Images.xcassets */,
 			);
 			path = BrowseOverflow;
 			sourceTree = "<group>";
@@ -538,6 +541,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				98A548DA130D3ABD003C4F0F /* InfoPlist.strings in Resources */,
+				C92452B31B3705CC00C61982 /* Images.xcassets in Resources */,
 				98A548E3130D3ABE003C4F0F /* MainWindow.xib in Resources */,
 				98A548E9130D3ABE003C4F0F /* RootViewController.xib in Resources */,
 				981F716913DD87A300061943 /* BrowseOverflowViewController.xib in Resources */,
@@ -751,6 +755,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CLANG_ENABLE_OBJC_ARC = YES;
 				COPY_PHASE_STRIP = NO;
 				GCC_DYNAMIC_NO_PIC = NO;
@@ -773,6 +779,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CLANG_ENABLE_OBJC_ARC = YES;
 				COPY_PHASE_STRIP = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
